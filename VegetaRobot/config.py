@@ -17,17 +17,17 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 12345   # integer value, dont use ""
-    API_HASH = "awew"
-    TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 24923823   # integer value, dont use ""
+    API_HASH = "3f02aa40be4f0c2ef745ac2407cf78fb"
+    TOKEN = "8202329949:AAHBlEH14DLc9Wa7fafKWyCMk31OUClRwQY"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     SQLALCHEMY_DATABASE_URI = "" #Use Your ElephantSQL
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "nandhaxd"
-    SUPPORT_CHAT = 'vegetasupport'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'vegetaUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
+    OWNER_ID = 8294939865  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "@Athiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    SUPPORT_CHAT = 'layla_bot_support'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'layla_updates' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1003472479431  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
-    EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = -1003602871951  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
